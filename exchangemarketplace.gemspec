@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["camelmasa"]
   spec.email         = ["camelmasa@gmail.com"]
 
-  spec.summary       = %q{Ruby client for exchangemarketplace.com}
-  spec.description   = %q{Ruby client for exchangemarketplace.com}
+  spec.summary       = %q{Ruby client for EXCHANGE}
+  spec.description   = %q{Ruby client for EXCHANGE}
   spec.homepage      = "https://github.com/camelmasa/exchangemarketplace"
   spec.license       = "MIT"
 
