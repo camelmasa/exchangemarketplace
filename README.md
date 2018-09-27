@@ -23,6 +23,8 @@ Or install it yourself as:
 ## Usage
 
 ```
+require "exchangemarketplace"
+
 client = Exchangemarketplace::Client.new
 shops = client.shops(page: 1)
 
