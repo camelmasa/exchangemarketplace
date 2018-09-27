@@ -22,7 +22,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+client = Exchangemarketplace::Client.new
+shops = client.shops(page: 1)
+
+shops.each do |shop|
+  puts shop.title
+  puts shop.record.average_monthly_revenue
+end
+```
 
 ## Development
 
